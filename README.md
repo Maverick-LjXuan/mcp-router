@@ -60,19 +60,9 @@ The MCP Router provides three tools:
 
 ## Development
 
-### Running Tests
-
-```bash
-uv run pytest
-```
 
 ### Code Structure
 
 - `mcp_router.py`: Main MCP server implementation (Data Plane)
 - `discovery_service.py`: Discovery service implementation (Discovery Service)
 - `config.py`: Configuration management
-- `test_mcp_router.py`: Unit tests
-
-## License
-
-MIT
